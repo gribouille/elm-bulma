@@ -1,0 +1,18 @@
+@import "~bulma/bulma.sass";
+
+.ex-modal {
+  margin: 200px;
+  display: flex;
+
+  .btn {
+    margin-right: 30px;
+  }
+
+  .leg {
+    color: grey;
+  }
+
+  .value {
+    font-weight: bold;
+  }
+}
