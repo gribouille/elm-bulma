@@ -36,7 +36,17 @@ type Size
     | Big
 
 
-{-| Modal configuration.
+{-| Modal configuration. If save is nothing, the save button is hidden.
+
+Example
+
+    { title = "My Modal title"
+    , size = Medium
+    , content = div [] [...]
+    , close = Button "Close" OnClose True
+    , save = Just <| Button "Save" OnSave True
+    }
+
 -}
 type alias Config msg =
     { title : String

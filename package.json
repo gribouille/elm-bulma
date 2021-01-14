@@ -1,6 +1,6 @@
 {
   "name": "elm-bulma",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ELM Bulma components",
   "main": "index.js",
   "directories": {
