@@ -79,6 +79,7 @@ view c active =
                 Just b ->
                     button
                         [ class ("button is-success " ++ bs b.enable "" "is-disabled")
+                        , disabled (not b.enable)
                         , onClick b.trigger
                         ]
                         [ text b.title ]
